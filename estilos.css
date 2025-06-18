@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Estilos generales*/
+body {  
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ line-height: 1.6;
+ color: blueviolet;
+ background-color: beige;
+ padding:20px
+}
+
+/*Encabezado*/
+header {
+ text-align: center;
+ text-decoration: blink;
+ margin-bottom: 20px;
+}
+
+.foto-perfil{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/*Secciones*/
+section{
+    margin-bottom: 20px;
+}
+
+h2{
+    color: rgb(30, 92, 92);
+}
+
+/*listas*/
+ul{
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/*Enlaces*/
+a {
+color: rgb(41, 236, 236);
+text-decoration: none;
+}
+
+a.hover {
+    text-decoration: underline;
+}
+
+/* Pie de pagina */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #383737;
+    
+}
